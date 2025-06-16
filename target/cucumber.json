@@ -1,0 +1,434 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2025-06-09T07:28:48.722Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1385606000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Successful login with valid credentials",
+        "description": "",
+        "id": "login-functionality-on-saucedemo;successful-login-with-valid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 3203087000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 1201000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CartSteps.assertAllAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 197000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.ProductSortingSteps.assertAllAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 120000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginSteps.assertAllAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 328000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.ProductImageValidationSteps.assertAllAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2783000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CheckoutSteps.assertAllAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 393242000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User launches the login page",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_launches_the_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 731000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 9923000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should land on the login page as expected",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_should_land_on_the_login_page_as_expected()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 197000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 100656000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "user should able to enter the valid username and password on the login page",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_should_able_to_enter_the_username_and_valid_password_on_the_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 150000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 48657000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.clicks_on_the_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 406000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18750000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user should see the homepage of SauceDemo",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_should_see_the_homepage_of_sauce_demo()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 151000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-06-09T07:28:53.960Z",
+        "before": [
+          {
+            "result": {
+              "duration": 244000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.setup(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Failed login with invalid credentials",
+        "description": "",
+        "id": "login-functionality-on-saucedemo;failed-login-with-invalid-credentials",
+        "after": [
+          {
+            "result": {
+              "duration": 3022395000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "hooks.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          },
+          {
+            "result": {
+              "duration": 215000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CartSteps.assertAllAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 249000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.ProductSortingSteps.assertAllAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 209000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.LoginSteps.assertAllAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 203000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.ProductImageValidationSteps.assertAllAfterScenario()"
+            }
+          },
+          {
+            "result": {
+              "duration": 225000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.CheckoutSteps.assertAllAfterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24694000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User launches the login page",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_launches_the_login_page()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 130000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6278000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User should land on the login page as expected",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_should_land_on_the_login_page_as_expected()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 138000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51915000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user enters the invalid username \"admin123\" and password \"password_invalid\" on the login page",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"admin123\"",
+                  "offset": 33
+                },
+                {
+                  "val": "\"password_invalid\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepdefinitions.LoginSteps.user_enters_the_invalid_username_and_password_on_the_login_page(java.lang.String,java.lang.String)"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 150000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 33697000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.clicks_on_the_login_button()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 570000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11303000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "user should see the error message of SauceDemo",
+            "match": {
+              "location": "stepdefinitions.LoginSteps.user_should_see_the_error_message_of_sauce_demo()"
+            },
+            "after": [
+              {
+                "result": {
+                  "duration": 143000,
+                  "status": "passed"
+                },
+                "match": {
+                  "location": "hooks.Hooks.afterStep(io.cucumber.java.Scenario)"
+                }
+              }
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Login functionality on SauceDemo",
+    "description": "  As a SauceDemo user,\n  I want to login with the valid user credentials\n  So that I will access the web-site, products and continue my shopping successfully.",
+    "id": "login-functionality-on-saucedemo",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/LoginFeature/login.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 2,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
